@@ -3,3 +3,8 @@ build/
 coverage/
 *.log
 .DS_Store
+
+# Local-only working material (must never be tracked)
+docs/plans/
+docs/reports/
+cache/
