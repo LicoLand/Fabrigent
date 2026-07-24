@@ -1,0 +1,21 @@
+{
+  "name": "@licoland/fabrigent",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "license": "GPL-3.0-or-later",
+  "description": "Neutral, versioned federation communication contracts and governance policy.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LicoLand/Fabrigent.git"
+  },
+  "scripts": {
+    "artifacts:generate": "node tools/generate-artifact.mjs",
+    "artifacts:check": "node tools/generate-artifact.mjs --check",
+    "test": "node --test tests/*.test.mjs",
+    "verify": "npm run artifacts:check && npm test"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
